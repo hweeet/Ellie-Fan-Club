@@ -1,0 +1,417 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8hNX6plRP.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html {
+    font-family: "Roboto";
+}
+
+
+
+
+/* Header */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    height: 200px;
+    background-color:rgb(248 93 152 / 0.2);
+}
+
+.cursive {
+    font-family: "Dancing Script";
+}
+
+.big {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.less {
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+
+header {
+    border-bottom: solid 2px black;
+}
+
+.cursive {
+    text-align: center;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+
+/* Ellie */
+
+.ellie-container {
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    background-image: url("https://thumbs.dreamstime.com/z/abstract-watercolor-heart-background-concept-love-valentine-day-greeting-card-red-pink-136606063.jpg");
+    
+}
+
+.ellie-center {
+    height: 800px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ellie-content {
+    text-align: center;
+}
+
+.ellie-image {
+    height: 80%;
+    width: 85%;
+    
+}
+
+.ellie-image img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.ellie-content h2 {
+    font-family: "Dancing Script";
+    font-size: 30px;
+    
+}
+
+.ellie-content h3 {
+    font-family: "Dancing Script";
+}
+
+
+
+
+/* Tuckas */
+
+.tucka-grid {
+    display: grid;
+    grid-template: repeat(21, 1fr)/repeat(8, 1fr);
+    height: 2000px;
+    gap: 1px;
+    width: 100%;
+}
+
+.pink {
+    grid-area: 1/1/9/9;
+    background-color: rgb(248 93 152 / 0.2);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.ellie-content-tucka {
+    font-family: "Dancing Script";
+}
+
+.pink-flex {
+    display: flex;
+
+}
+
+.ellie-center-tucka {
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    background-color: white;
+}
+
+.ellie-image-tucka {
+    height: 65%;
+    width: 100%;
+    
+}
+
+.ellie-image-tucka img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit:cover;
+}
+
+.green {
+    grid-area: 7/4/16/9;
+    background-color: rgb(16 238 168 / 0.77);
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+.green-flex {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.kaley-center {
+    height: 800px;
+    width: 500px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kaley-image-tucka {
+    height: 65%;
+    width: 100%;
+}
+
+.kaley-image-tucka img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit:cover;
+}
+
+.kaley-content-tucka {
+    text-align: center;
+}
+
+
+
+.blue {
+    grid-area: 14/2/22/7;
+    background-color:rgb(54 156 246 / 0.77);
+    padding-top: 10px;
+}
+
+.blue-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.chloe-center {
+    height: 1000px;
+    width: 500px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left:10px;
+    background-color: white;
+}
+
+.chloe-image-tucka {
+    height: 65%;
+    width: 100%;
+}
+
+.chloe-image-tucka img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit:cover;
+}
+
+.chloe-content-tucka {
+    text-align: center;
+}
+
+/* Grands */
+
+
+
+.grand-grid {
+    display: grid;
+    grid-template: repeat(8/1fr)/repeat(8/1fr);
+    height: 1000px;
+    width: 100%;
+    gap: 2px;
+}
+
+.kk-text,
+.pop-text {
+    background-color: rgb(248 93 152 / 0.2);
+    font-family: "Dancing Script";
+    word-spacing: 0.5rem;
+    line-height: 1.5;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+
+.intro h2 {
+    background-color: rgb(248 93 152 / 0.2);
+    font-family: "Dancing Script";
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    margin:0;
+    height: 150px;
+    text-align: center;
+}
+
+/*.heart-left {
+    grid-area: 1/1/4/5;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.pop-text {
+    grid-area: 7/1/9/5;
+    text-align: center;
+}
+
+.brown {
+    grid-area: 1/1/7/5;
+    background-color: rgb(153 54 246 / 0.77);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.pop-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.pop-center {
+    height: 1000px;
+    width: 450px;
+}
+
+.pop-image {
+    height: 60%;
+    width: 100%;
+}
+
+.pop-image img {
+    height:100%;
+    width:100%;
+}
+
+.purple {
+    grid-area: 1/5/7/9;
+    background-color: rgb(68 8 246 / 0.77);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.kk-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.pop-content {
+    text-align: center;
+}
+
+.kk-content {
+    text-align: center;
+}
+
+.kk-center {
+    height: 1000px;
+    width: 450px;
+}
+
+.kk-image {
+    height: 60%;
+    width: 95%;
+}
+
+.kk-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.kk-text {
+    grid-area: 7/5/9/9;
+    text-align: center;
+}
+
+/*.heart-right {
+    grid-area: 6/17/9/20;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+/*.heart-right img {
+    height: 150px;
+    width: 150px;    
+}
+
+.heart-left img {
+    height: 150px;
+    width: 150px;
+}*/
+
+/* Sign-Up */
+
+.closing-flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.closing {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    
+}
+
+.closing h2 {
+    text-align: center;
+    font-family: "Dancing Script";
+    background-color: rgb(248 93 152 / 0.2);
+    padding: 10px 0 20px 0;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 3.75rem;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
